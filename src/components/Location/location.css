@@ -1,0 +1,14 @@
+.root {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 2em 1fr;
+    gap: 1em;
+    border: dashed 0.5px;
+    padding: 1rem;
+}
+
+.locationContainer {
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    gap: 15px;
+}
